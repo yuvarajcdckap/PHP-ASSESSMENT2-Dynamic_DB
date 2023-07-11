@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+
+
+}
+input::placeholder {
+  color: #1b082c;
+  padding-left: 3px;
+}
+.DbInput,
+.input-group,
+.tableInput {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  gap: 10px;
+}
+
+.container {
+  background-color: #af2be2;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 5px;
+}
+label {
+  color: white;
+  font-size: 18px;
+}
+label > span {
+  color: red;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonDiv {
+  padding: 10px 0px;
+}
+input,
+select {
+  height: 30px;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+select {
+  height: 28px;
+  background-color: #ffffff;
+  color: #1b082c;
+}
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.column {
+  margin: 5px 3px;
+}
+button[type="submit"] {
+  height: 32px;
+  width: 115px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background: chartreuse;
+}
+input[type="button"] {
+  background: yellow;
+  width: 130px;
+}
+.columnDiv {
+  display: flex;
+}
+.deleteBtn {
+  background-color: red;
+  height: 28px;
+  width: 120px;
+  border: none;
+  border-radius: 3px;
+}
+.columnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-left: 38px;
+}
+
+.backBtn > button {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: #0004ff;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.backBtn > button > a {
+  color: #ffffff;
+}
+
+.backBtn > button:hover {
+  transition: 0.2s;
+  background-color: #b36de2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 20px;
+}
